@@ -1,0 +1,1 @@
+<h5>Copyright &copy;<?php echo date('Y');?> <a href="http://savnikvid.com/" target="_blank">Vid</a></h5>
