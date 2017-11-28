@@ -13,10 +13,6 @@
 		<hr>
 		
 		<ul>
-			<!--
-				syntax: foreach ($array as $key => $value)
-				http://www.tuxradar.com/practicalphp/5/3/0
-			-->
 			<?php foreach ($menuItems as $dish => $item) { ?>
 				
 				<li><a href="dish.php?item=<?php echo $dish; ?>"><?php echo $item["title"]; ?></a> <sup>$</sup><?php echo $item["price"]; ?></li>
@@ -24,7 +20,7 @@
 			<?php } ?>
 		</ul>
 		
-	</div><!-- team-members -->
+	</div>
 	
 	<hr>
 			
